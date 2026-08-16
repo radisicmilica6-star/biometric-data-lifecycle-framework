@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Fabric generated files
+fabric-network/organizations/
+fabric-network/channel-artifacts/
+fabric-network/system-genesis-block/
+fabric-network/log.txt
+
+# Fabric runtime data
+fabric-network/*.block
+fabric-network/*.tx
+
+# Local environment
+.env
+.env.*
+
+# Archives
+*.tar.gz
+*.tgz
+
+# Backups and temporary files
+*.backup
+*.backup2
+*.broken
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
